@@ -1,5 +1,13 @@
 == README
 
+
+*Notes*
+Run tests: $ bundle exec rake test
+Run server: $ rails s
+Build: $ bundle install --without production
+	   $ bundle update
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
