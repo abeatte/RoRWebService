@@ -6,6 +6,10 @@ Run tests: $ bundle exec rake test
 Run server: $ rails s
 Build: $ bundle install --without production
 	   $ bundle update
+Creating new models: $ rails generate model modName fieldName:type fieldName:type
+Creating new controllers: $ rails generate controller contName [methodNames]
+Update db fields: $ rails generate migration migName fieldName:fieldType
+				  $ bundle exec rake db:migrate
 
 
 This README would normally document whatever steps are necessary to get the
